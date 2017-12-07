@@ -1,0 +1,42 @@
+{
+	"variables": [],
+	"info": {
+		"name": "ValutDragon",
+		"_postman_id": "37d7565b-5953-9e81-dec5-0154068ce31a",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add/Update",
+			"request": {
+				"url": "http://localhost:3000/vault",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"gopinathan321321321\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Getvalue",
+			"request": {
+				"url": "http://vaultdragon.eu-2.evennode.com/name",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
